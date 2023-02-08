@@ -55,7 +55,7 @@ Resources:
       Source:
         Type: GITHUB
         Location: https://github.com/danna417/aws-test.git
-        BuildSpec: buildspec.yml
+        BuildSpec: buildspec.yaml
         Auth:
             Type: OAUTH
             Resource: !Ref CodeBuildSourceCredential
